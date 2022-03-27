@@ -11,6 +11,7 @@
   inputs.src-gdbmc-master.ref   = "refs/heads/master";
   inputs.src-gdbmc-master.owner = "vycb";
   inputs.src-gdbmc-master.repo  = "gdbmc.nim";
+  inputs.src-gdbmc-master.dir   = "";
   inputs.src-gdbmc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
