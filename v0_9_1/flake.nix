@@ -11,7 +11,6 @@
   inputs.src-gdbmc-v0_9_1.ref   = "refs/tags/v0.9.1";
   inputs.src-gdbmc-v0_9_1.owner = "vycb";
   inputs.src-gdbmc-v0_9_1.repo  = "gdbmc.nim";
-  inputs.src-gdbmc-v0_9_1.dir   = "";
   inputs.src-gdbmc-v0_9_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
